@@ -1,0 +1,15 @@
+Guia de Uso
+i. Explique detalladamente cómo utilizar el mecanismo. Por ejemplo, si
+elige semáforos, debe explicar cómo importar la clase, y qué métodos
+utilizar
+
+os semaforos permiten adquirir una cantidad n de permisos, y liberar kcantidad de
+permisos, o sea que se devuelven al semáforo. Un hilo puede adquirir varios
+permisos y liberar varios permisos. Pero hay que tener MUCHO cuidado para no producir
+deadlock.
+Cuando se trabaja con semáforos siempre se puede evitar la espera activa, dado que los hilos que
+no consiguen acceder al permiso o los permisos que requieren quedan bloqueados en el semáforo Se puede utilizar un semáforo general, por ejemplo, en el problema del Barbero Dormilon para
+contemplar las sillas de la sala de espera de la barberia. 
+Entonces en el caso del estacionamiento del supermercado podrian utilizarse semáforos generales
+para controlar el espacio para las motos y el espacio para los auots. Y así se podría eliminar la
+“espera activa” en el sensorSalida.

@@ -1,0 +1,13 @@
+Introducción
+i. Seleccione algún mecanismo de sincronización de Java y explíquelo
+en 1 o 2 párrafos.
+
+Una forma de trabajar la sincronización por cooperación es utilizando semáforos generales.
+Los semáforos son construcciones de control de concurrencia. Hay semaforos binarios (0 o 1 permisos) y n-arios (con 0 o mas permisos, n permisos). 
+
+Los semáforos generales son usados para controlar el numero de actividades que pueden acceder a un recurso compartido o llevar a cabo una cierta acción al mismo tiempo. Permiten implementar
+la sincronización por cooperaciónUn semáforo maneja un conjunto de permisos virtuales, cuyo número inicial es dado al crear el
+semáforo. 
+
+
+
